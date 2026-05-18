@@ -38,5 +38,9 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
-/ios
 /android
+
+# iOS - Pods gerados pelo pod install (não commitar)
+/ios/Pods
+/ios/build
+/ios/.xcode.env.local

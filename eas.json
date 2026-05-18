@@ -19,7 +19,6 @@
     },
     "production": {
       "autoIncrement": true,
-      "prebuildCommand": "",
       "ios": {
         "simulator": false
       },

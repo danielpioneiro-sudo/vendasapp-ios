@@ -61,5 +61,49 @@ target 'VendasApp' do
       :mac_catalyst_enabled => false,
       :ccache_enabled => ccache_enabled?(podfile_properties),
     )
+
+    # Ensure codegen header for react-native-worklets exists.
+    # EAS build servers sometimes skip the TurboModule codegen step.
+    rnworklets_dir = File.join(installer.sandbox.root, 'Headers', 'Public', 'ReactCodegen', 'rnworklets')
+    rnworklets_header = File.join(rnworklets_dir, 'rnworklets.h')
+    unless File.exist?(rnworklets_header)
+      FileUtils.mkdir_p(rnworklets_dir)
+      File.write(rnworklets_header, <<~HEADER)
+        #ifndef __cplusplus
+        #error This file must be compiled as Obj-C++.
+        #endif
+        #ifndef rnworklets_H
+        #define rnworklets_H
+        #import <Foundation/Foundation.h>
+        #import <RCTRequired/RCTRequired.h>
+        #import <RCTTypeSafety/RCTConvertHelpers.h>
+        #import <RCTTypeSafety/RCTTypedModuleConstants.h>
+        #import <React/RCTBridgeModule.h>
+        #import <React/RCTCxxConvert.h>
+        #import <React/RCTManagedPointer.h>
+        #import <ReactCommon/RCTTurboModule.h>
+        #import <optional>
+        #import <vector>
+        NS_ASSUME_NONNULL_BEGIN
+        @protocol NativeWorkletsModuleSpec <RCTBridgeModule, RCTTurboModule>
+        - (NSNumber *)installTurboModule;
+        @end
+        @interface NativeWorkletsModuleSpecBase : NSObject {
+        @protected
+        facebook::react::EventEmitterCallback _eventEmitterCallback;
+        }
+        - (void)setEventEmitterCallback:(EventEmitterCallbackWrapper *)eventEmitterCallbackWrapper;
+        @end
+        namespace facebook::react {
+          class JSI_EXPORT NativeWorkletsModuleSpecJSI : public ObjCTurboModule {
+          public:
+            NativeWorkletsModuleSpecJSI(const ObjCTurboModule::InitParams &params);
+          };
+        }
+        NS_ASSUME_NONNULL_END
+        #endif
+      HEADER
+      puts "✓ Created rnworklets/rnworklets.h (codegen fallback)"
+    end
   end
 end

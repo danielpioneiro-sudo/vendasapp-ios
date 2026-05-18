@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		184992F1A2BA1759BDC2F46F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CA728711AE277107584A4807 /* PrivacyInfo.xcprivacy */; };
+		1D63BD8E8493703C0A513069 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209505BCE23F44FE9FD629 /* ExpoModulesProvider.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		A14E683ADD5A83823E166818 /* libPods-VendasApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48824859214B16A32825DA /* libPods-VendasApp.a */; };
+		878BACAB97C88C2E130CE5DF /* libPods-VendasApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FF74CFE761EC55C51D1137 /* libPods-VendasApp.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		CF197B2FE53303ED32624B65 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4383ED4877F17276B413F6B0 /* PrivacyInfo.xcprivacy */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F12FC99137D57935814D19F0 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD99530AFD281A82027503 /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		074DADB76B51519237C4C4BC /* Pods-VendasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendasApp.debug.xcconfig"; path = "Target Support Files/Pods-VendasApp/Pods-VendasApp.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* VendasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VendasApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VendasApp/Info.plist; sourceTree = "<group>"; };
-		238C025AC8B031D407DC76E6 /* Pods-VendasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendasApp.release.xcconfig"; path = "Target Support Files/Pods-VendasApp/Pods-VendasApp.release.xcconfig"; sourceTree = "<group>"; };
-		40FD99530AFD281A82027503 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-VendasApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		4F48824859214B16A32825DA /* libPods-VendasApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VendasApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4383ED4877F17276B413F6B0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = VendasApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		62FF74CFE761EC55C51D1137 /* libPods-VendasApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VendasApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8F52DF4F023AF2C41F0E7B /* Pods-VendasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendasApp.release.xcconfig"; path = "Target Support Files/Pods-VendasApp/Pods-VendasApp.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = VendasApp/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		CA728711AE277107584A4807 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = VendasApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D12ACED3958C88A58353240A /* Pods-VendasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendasApp.debug.xcconfig"; path = "Target Support Files/Pods-VendasApp/Pods-VendasApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = VendasApp/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* VendasApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "VendasApp-Bridging-Header.h"; path = "VendasApp/VendasApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC209505BCE23F44FE9FD629 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-VendasApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14E683ADD5A83823E166818 /* libPods-VendasApp.a in Frameworks */,
+				878BACAB97C88C2E130CE5DF /* libPods-VendasApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				CA728711AE277107584A4807 /* PrivacyInfo.xcprivacy */,
+				4383ED4877F17276B413F6B0 /* PrivacyInfo.xcprivacy */,
 			);
 			name = VendasApp;
 			sourceTree = "<group>";
@@ -62,23 +62,15 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				4F48824859214B16A32825DA /* libPods-VendasApp.a */,
+				62FF74CFE761EC55C51D1137 /* libPods-VendasApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6FC0F4BEB1B4AAC3B7A83D11 /* VendasApp */ = {
+		70D523C5B4CBDBBA0A33801B /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				40FD99530AFD281A82027503 /* ExpoModulesProvider.swift */,
-			);
-			name = VendasApp;
-			sourceTree = "<group>";
-		};
-		8258BA59AA9A8AA239586723 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				6FC0F4BEB1B4AAC3B7A83D11 /* VendasApp */,
+				B8B67820478CCD090C173E32 /* VendasApp */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -97,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				D46A3AFA90330FBCF775D3CE /* Pods */,
-				8258BA59AA9A8AA239586723 /* ExpoModulesProviders */,
+				917A6C8F0ADD00ACC6FF6A24 /* Pods */,
+				70D523C5B4CBDBBA0A33801B /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -113,6 +105,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		917A6C8F0ADD00ACC6FF6A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D12ACED3958C88A58353240A /* Pods-VendasApp.debug.xcconfig */,
+				9F8F52DF4F023AF2C41F0E7B /* Pods-VendasApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8B67820478CCD090C173E32 /* VendasApp */ = {
+			isa = PBXGroup;
+			children = (
+				FC209505BCE23F44FE9FD629 /* ExpoModulesProvider.swift */,
+			);
+			name = VendasApp;
+			sourceTree = "<group>";
+		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,16 +130,6 @@
 			);
 			name = Supporting;
 			path = VendasApp/Supporting;
-			sourceTree = "<group>";
-		};
-		D46A3AFA90330FBCF775D3CE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				074DADB76B51519237C4C4BC /* Pods-VendasApp.debug.xcconfig */,
-				238C025AC8B031D407DC76E6 /* Pods-VendasApp.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VendasApp" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				6312B6BE88936B64B7654814 /* [Expo] Configure project */,
+				7B62EC325941C250470EA14D /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				77EA66B1840A415177F240F4 /* [CP] Embed Pods Frameworks */,
+				AD8A95CA4AF60CE9DF224CF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				184992F1A2BA1759BDC2F46F /* PrivacyInfo.xcprivacy in Resources */,
+				CF197B2FE53303ED32624B65 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +242,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6312B6BE88936B64B7654814 /* [Expo] Configure project */ = {
+		7B62EC325941C250470EA14D /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -265,28 +265,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-VendasApp/expo-configure-project.sh\"\n";
-		};
-		77EA66B1840A415177F240F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VendasApp/Pods-VendasApp-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/React-Core-prebuilt/React.framework/React",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeDependencies/ReactNativeDependencies.framework/ReactNativeDependencies",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermesvm.framework/hermesvm",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeDependencies.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermesvm.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendasApp/Pods-VendasApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -326,6 +304,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendasApp/Pods-VendasApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AD8A95CA4AF60CE9DF224CF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendasApp/Pods-VendasApp-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/React-Core-prebuilt/React.framework/React",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeDependencies/ReactNativeDependencies.framework/ReactNativeDependencies",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermesvm.framework/hermesvm",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeDependencies.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermesvm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendasApp/Pods-VendasApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -334,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				F12FC99137D57935814D19F0 /* ExpoModulesProvider.swift in Sources */,
+				1D63BD8E8493703C0A513069 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +343,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 074DADB76B51519237C4C4BC /* Pods-VendasApp.debug.xcconfig */;
+			baseConfigurationReference = D12ACED3958C88A58353240A /* Pods-VendasApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -379,7 +379,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 238C025AC8B031D407DC76E6 /* Pods-VendasApp.release.xcconfig */;
+			baseConfigurationReference = 9F8F52DF4F023AF2C41F0E7B /* Pods-VendasApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -40,3 +40,7 @@ App de gestão de vendas com assinaturas (iOS + Android).
 ## Deploy iOS
 - Xcode local → xcodebuild → Organizer → App Store Connect
 - Nunca usar EAS Build para produção iOS
+
+## Credenciais
+As chaves e tokens ficam no arquivo de ambiente — leia antes de fazer qualquer alteração:
+- `/Volumes/dp/Projetos/vendasapp-ios/.env`
